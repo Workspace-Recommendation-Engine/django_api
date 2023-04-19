@@ -9,7 +9,8 @@ https://docs.djangoproject.com/en/4.2/howto/deployment/wsgi/
 
 import os
 
-from django.core.wsgi import get_wsgi_application
+#from django.core.wsgi import get_wsgi_application
+from workspace_engine.wsgi import appliction
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'workspace_engine.settings')
 
